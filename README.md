@@ -29,3 +29,14 @@ By bridging data engineering and product sense, I successfully translated raw lo
   * *Product Impact:* Proposed a dynamic "Affordability Slider" in the UI that automatically caps requested loan amounts to keep users in a safer repayment tier, rather than issuing underpriced high-risk loans.
 * **Segmented High-Risk Loan Purposes:** * *Data:* Discovered that `small_business` loans are massive loss leaders, generating a negative risk-adjusted spread of **-3.58** with an **18.84%** default rate.
   * *Product Impact:* Recommended pausing standard retail flows for business loans and developing a strictly gated, dedicated "B2B / SME" flow that requires different cash-flow verification mechanisms.
+
+## How to Run 
+### 1. Clone the repository
+```bash
+   git clone [https://github.com/Akshat-Singh-Kshatriya/digital-lending-analytics.git](https://github.com/Akshat-Singh-Kshatriya/digital-lending-analytics.git)
+   cd digital-lending-analytics
+```
+### 2. Install dependencies 
+```bash
+   pip install -r requirements.txt
+```
